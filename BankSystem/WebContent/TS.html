@@ -1,0 +1,78 @@
+<style>
+.login {
+	position: absolute;
+	top: calc(50% - 20px);
+	left: calc(50% - 400px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+	
+}
+
+.login input[type=text] {
+	width: 250px;
+	height: 30px;
+	background:transparent;
+	border: 1px solid black;
+	border-radius: 1px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+
+
+.login input[type=submit] {
+	width: 130px;
+	height: 35px;
+	background: highlight;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 20px;
+}
+
+.login input[type=submit]:hover {
+	opacity: 0.8;
+	color: black;
+}
+
+.login input[type=submit]:active {
+	opacity: 0.6;
+	color: white;
+}
+
+.login input[type=text]:focus {
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.login input[type=password]:focus {
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.login input[type=submit]:focus {
+	outline: none;
+}
+
+</style>
+
+<div class="login">
+	<form action="" method="post">
+		Enter Debit Account Number<input type="text"  name="DebitAcc"><br>
+		Enter Your Name<input type="text"  name="DebitName"><br>
+		Enter Credit Account Number<input type="text"  name="CreditAcc"><br>
+		Enter Amount<br><input type="text"  name="Amount"><br>
+
+		<input type="submit" value="Transnfer" formaction="Transfer">
+
+	</form>
+</div>
