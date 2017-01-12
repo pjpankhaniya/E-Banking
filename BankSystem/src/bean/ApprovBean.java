@@ -9,7 +9,7 @@ public class ApprovBean {
 	private String username;
 	private String password;
 	private String BOD;
-
+	//this is commented
 	public void setName(String name) {
 		this.name = name;
 	}
